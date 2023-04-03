@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Tutorial Case
+
+   Columns Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         dlr_columns.css
+
+*/
+
+/* Column Styles */
+@media only screen and (min-width: 641px) {
+   article {
+      column-count: 2;
+      column-gap: 30px;
+      column-rule: 2px dotted gray;
+      widows: 3;
+      orphans:3;
+   }
+
+   article h1 {
+      column-span: all;
+      text-align: center;
+   }
+
+
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1" />
+   <title>The Living World: April 14
+/* Column Styles */
+
